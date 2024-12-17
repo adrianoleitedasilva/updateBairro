@@ -2,16 +2,16 @@
 
 Este projeto engloba uma série de scripts Python criados para processar, manipular e atualizar informações de clientes com base em arquivos Excel e integração com banco de dados MySQL, além de consultas em APIs externas.
 
-## Script: Consulta de CEP na API dos Correios e Atualização do Bairro
+## Script: Consulta de CEP na API do ViaCep e Atualização do Bairro
 
 ### Objetivo:
 
-Percorrer uma planilha Excel contendo uma lista de CEPs e, com base em cada CEP, consultar o bairro usando a API dos Correios. Os bairros são armazenados em uma nova coluna no mesmo arquivo Excel.
+Percorrer uma planilha Excel contendo uma lista de CEPs e, com base em cada CEP, consultar o bairro usando a API do ViaCep. Os bairros são armazenados em uma nova coluna no mesmo arquivo Excel.
 
 **Funcionalidades**:
 
 - Leitura da planilha Excel com a biblioteca pandas.
-- Consulta dos CEPs na API dos Correios para obter o bairro.
+- Consulta dos CEPs na API ViaCep para obter o bairro.
 - Criação de uma nova coluna "bairro" no arquivo Excel com os resultados.
 - Monitoramento do percentual de progresso durante o processamento.
 
